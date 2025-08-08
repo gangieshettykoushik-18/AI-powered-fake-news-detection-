@@ -13,3 +13,24 @@ It can predict whether a given news headline or article is **fake** or **real**.
 - Interactive web app using Streamlit
 - Model persistence using Joblib
 
+🏃 Run Locally
+Train the model:
+
+python src/train.py
+
+Run the web app:
+streamlit run app/app.py
+
+📈 Example Output
+
+FAKE News → 🚨 This news seems FAKE
+
+REAL News → ✅ This news seems REAL
+
+🔮 Future Improvements
+
+Use BERT or DistilBERT for better accuracy
+
+Deploy as a public web app
+
+Multi-language news detection
